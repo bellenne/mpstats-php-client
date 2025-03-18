@@ -1,0 +1,19 @@
+{
+    "name": "bellenne/mpstats",
+    "description": "PHP client for MpStats API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Aleksei Ivantsov",
+        "email": "wfcp@yandex.ru"
+    }],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bellenne\\MpStats\\": "src/"
+        }
+    }
+}
