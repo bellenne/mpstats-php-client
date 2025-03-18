@@ -11,7 +11,7 @@ class Settings implements JsonSerializable{
     private FilterModel $filterModel;
     private SortModel $sortModel;
 
-    public function __construct(Pagination $pagination, ?FilterModel $filterModel = null,?SortModel $sortModel = null) {
+    public function __construct(Pagination $pagination, ?FilterModel $filterModel = null, ?SortModel $sortModel = null) {
         $this->startRow = $pagination->getStartRow();
         $this->endRow = $pagination->getEndRow();
         $this->filterModel = $filterModel;

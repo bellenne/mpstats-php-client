@@ -5,7 +5,7 @@ use Bellenne\MpStats\Core\ApiRequestHandler;
 use Bellenne\MpStats\Config\Links;
 use Bellenne\MpStats\Core\Main;
 use Bellenne\MpStats\Settings\Settings;
-use RuntimeException;
+
 
 class ChoosingNiche extends Main{
     private ApiRequestHandler $requestHandler;

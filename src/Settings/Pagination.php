@@ -8,7 +8,7 @@ class Pagination{
     private int $maxRowFromCall = 5000;
 
 
-    /*
+    /**
     *  @param int $startRow - this is name of column from MpStats       
     *  @param int $endRow - this is type filter like equal, notEqual or any from MpStats Api Docs       
 
