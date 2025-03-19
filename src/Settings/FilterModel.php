@@ -17,7 +17,7 @@ class FilterModel implements JsonSerializable{
     *  @param string $filterTo - this is end filter value     
     */
     public function addNumericFilter(string $colId, string $type, int $filter, ?int $filterTo = null){
-        $this->filterModel[$colId] = new Filter( 'text', $type, $filter, $filterTo);
+        $this->filterModel[$colId] = new Filter( 'number', $type, $filter, $filterTo);
     }
     public function addStringFilter(string $colId, string $type, string $filter){
         $this->filterModel[$colId] = new Filter( 'text', $type, $filter);

@@ -7,7 +7,7 @@ class Filter implements JsonSerializable{
     private string $filterType;
     private string $type;
     private string $filter;
-    private string $filterTo;
+    private ?string $filterTo;
 
     public function __construct(string $filterType, string $type, string $filter, ?string $filterTo = null) {
         $this->filterType = $filterType;
