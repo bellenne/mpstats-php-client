@@ -29,4 +29,31 @@ class Links{
         'description'=>'Sellers'
     ],
    ]; 
+   public static $RubricatorLinksWb = [
+    'category'=>[
+        'endpoint'=>'wb/get/category',
+        'method'=>'POST ',
+        'description'=>'Getting data by product categories'
+    ],
+    'subcategories'=>[
+        'endpoint'=>'wb/get/category/subcategories',
+        'method'=>'GET ',
+        'description'=>'Subcategories'
+    ],
+    'brands'=>[
+        'endpoint'=>'wb/get/category/brands',
+        'method'=>'GET',
+        'description'=>'Brands'
+    ],
+    'sellers'=>[
+        'endpoint'=>'wb/get/subject/sellers',
+        'method'=>'GET',
+        'description'=>'Sellers'
+    ],
+    'trends'=>[
+        'endpoint'=>'wb/get/category/trends',
+        'method'=>'GET',
+        'description'=>'Trends'
+    ],
+   ]; 
 }
